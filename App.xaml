@@ -1,0 +1,14 @@
+﻿<Application x:Class="UchebPraktika.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:UchebPraktika"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Window">
+            <Setter Property="MinWidth" Value="600"/>
+            <Setter Property="MaxWidth" Value="800"/>
+            <Setter Property="MinHeight" Value="450"/>
+            <Setter Property="MaxHeight" Value="500"/>
+        </Style>
+    </Application.Resources>
+</Application>
